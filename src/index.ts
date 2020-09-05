@@ -8,11 +8,13 @@ import {
   PlatformType,
 } from './shared'
 
+type OSType = 'ios' | 'android' | 'web'
+
 /**
  * Gets the OS string.
  */
-export function getOS(): Promise<string> {
-  return sendMessage<string, void>({
+export function getOS(): Promise<OSType> {
+  return sendMessage<OSType, void>({
     type: TYPE_OS,
     payload: undefined,
   })
