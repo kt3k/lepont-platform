@@ -1,5 +1,7 @@
 # @lepont/platform v0.1.1
 
+![ci](https://github.com/kt3k/lepont-platform/workflows/ci/badge.svg)
+
 > [lepont][] bridge for React Native's [Platform](https://reactnative.dev/docs/platform-specific-code) utility
 
 # Install
