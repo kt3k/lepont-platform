@@ -1,11 +1,10 @@
 import { Registry } from 'lepont'
-import { TYPE_OS, TYPE_SELECT, TYPE_VERSION, TYPE_CONSTANTS, PayloadSelect } from './shared'
+import { TYPE_OS, TYPE_SELECT, TYPE_VERSION, PayloadSelect } from './shared'
 
 type PlatformModule = {
   OS: string
   select: (x: any) => any
   Version: string
-  constants: any
 }
 
 export const PlatformBridge = (Platform: PlatformModule) => (
@@ -16,5 +15,4 @@ export const PlatformBridge = (Platform: PlatformModule) => (
     Platform.select(map)
   )
   registry.register(TYPE_VERSION, () => Platform.Version)
-  registry.register(TYPE_CONSTANTS, () => Platform.constants)
 }

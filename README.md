@@ -71,10 +71,6 @@ Gets the OS string, such as 'ios', 'android', etc.
 
 Gets the OS version.
 
-## `getConstants(): Promise<any>`
-
-Gets miscellaneous constants. TBD
-
 # License
 
 MIT

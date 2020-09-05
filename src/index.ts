@@ -3,7 +3,6 @@ import {
   TYPE_OS,
   TYPE_SELECT,
   TYPE_VERSION,
-  TYPE_CONSTANTS,
   PayloadSelect,
   PlatformType,
 } from './shared'
@@ -52,16 +51,6 @@ export async function select<A, I, W, N, D>(source: {
 export function getVersion(): Promise<string> {
   return sendMessage<string, void>({
     type: TYPE_VERSION,
-    payload: undefined,
-  })
-}
-
-/**
- * Gets the miscellaneous constants.
- */
-export function getConstants(): Promise<any> {
-  return sendMessage<any, void>({
-    type: TYPE_CONSTANTS,
     payload: undefined,
   })
 }
