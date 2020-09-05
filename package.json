@@ -1,6 +1,6 @@
 {
   "name": "@lepont/platform",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "lepont bridge for React Native's Platform utility",
   "main": "dist/index.js",
   "types": "./types/index.d.ts",

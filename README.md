@@ -1,4 +1,4 @@
-# @lepont/platform v0.1.1
+# @lepont/platform v0.1.2
 
 ![ci](https://github.com/kt3k/lepont-platform/workflows/ci/badge.svg)
 
