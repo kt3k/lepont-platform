@@ -1,4 +1,4 @@
-# @lepont/platform v0.1.0
+# @lepont/platform v0.1.1
 
 > [lepont][] bridge for React Native's [Platform](https://reactnative.dev/docs/platform-specific-code) utility
 
