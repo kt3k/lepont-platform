@@ -1,6 +1,6 @@
 # @lepont/platform v0.1.0
 
-> Description
+> [lepont][] bridge for React Native's [Platform](https://reactnative.dev/docs/platform-specific-code) utility
 
 # Install
 
@@ -49,7 +49,7 @@ await select({
 await getVersion() // => 0.63.0 for example
 ```
 
-# API: methods
+# APIs
 
 ```
 import { select, getOS, getVerion, getConstants } from '@lepont/platform'

@@ -1,7 +1,7 @@
 {
   "name": "@lepont/platform",
   "version": "0.1.0",
-  "description": "",
+  "description": "lepont bridge for React Native's Platform utility",
   "main": "dist/index.js",
   "types": "./types/index.d.ts",
   "files": [
@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "clean": "rimraf types dist",
-    "test": "jest",
     "dist": "tsc",
     "prepublishOnly": "npm run clean && npm run dist",
     "fmt": "prettier --write --no-semi --single-quote src"
