@@ -67,7 +67,7 @@ See the example above.
 
 Gets the OS string, such as 'ios', 'android', etc.
 
-## `getVersion(): Promise<string>`
+## `getVersion(): Promise<string | number>`
 
 Gets the OS version.
 

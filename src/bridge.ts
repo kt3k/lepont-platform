@@ -4,7 +4,7 @@ import { TYPE_OS, TYPE_SELECT, TYPE_VERSION, PayloadSelect } from './shared'
 type PlatformModule = {
   OS: string
   select: (x: any) => any
-  Version: string
+  Version: string | number
 }
 
 export const PlatformBridge = (Platform: PlatformModule) => (

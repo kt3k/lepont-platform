@@ -48,7 +48,7 @@ export async function select<A, I, W, N, D>(source: {
 /**
  * Gets the platform vesion.
  */
-export function getVersion(): Promise<string> {
+export function getVersion(): Promise<string | number> {
   return sendMessage<string, void>({
     type: TYPE_VERSION,
     payload: undefined,
