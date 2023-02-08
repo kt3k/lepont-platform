@@ -12,10 +12,10 @@ lepont@0.11.4:
   resolved "https://registry.yarnpkg.com/lepont/-/lepont-0.11.4.tgz#1becb261ebad998b4a91c01b143e5c1bc2288bc1"
   integrity sha512-ipCjHHzF1NkCbGJ5mg3+KkG2RPEKpHOQob6nFssjW/LioHkhzXdDoQ+eAx53FoQN6eZZSCD56Ht1ZFYRdNVu1g==
 
-prettier@2.8.3:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.3.tgz#ab697b1d3dd46fb4626fbe2f543afe0cc98d8632"
-  integrity sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==
+prettier@2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
+  integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
 rimraf@4.1.2:
   version "4.1.2"
