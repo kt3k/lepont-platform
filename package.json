@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/kt3k/lepont-platform",
   "devDependencies": {
-    "@types/node": "22.12.0",
+    "@types/node": "22.13.1",
     "lepont": "0.11.4",
     "prettier": "3.4.2",
     "rimraf": "6.0.1",
