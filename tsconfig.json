@@ -4,6 +4,7 @@
     "module": "commonjs",
     "target": "ES2017",
     "esModuleInterop": true,
+    "rootDir": "./src",
     "outDir": "./dist",
     "declarationDir": "./types",
     "declaration": true
